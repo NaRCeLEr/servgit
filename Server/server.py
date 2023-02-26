@@ -6,7 +6,7 @@ server.bind(("127.0.0.1", 4600))
 server.listen()
 
 print('server is runed')
-
+print("no")
 
 client, address = server.accept()
 print(f'Client:{client}, adress: {address}')
